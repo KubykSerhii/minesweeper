@@ -65,7 +65,7 @@ class MainScreen:
         if self.canvas:
             self.canvas.destroy()
         self.drawCanvas()
-
+        # Create all fields
         self.fields = [[Field(j, i, self) for i in range(self.columns)] for j in range(self.rows)]
         # Bombs positions
         curr_bombs = self.bombs
