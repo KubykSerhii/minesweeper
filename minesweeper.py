@@ -12,7 +12,7 @@ class MainScreen:
         self.rows = 9
         self.bombs = 10
         self.fields = []
-        self.size_field = 42
+        self.size_field = 30
         self.canvas = None
         self.screen = screen
         self.screen.title('Minesweeper by Serhii Kubyk')
